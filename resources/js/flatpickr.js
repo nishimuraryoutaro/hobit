@@ -12,7 +12,10 @@ const setting = {
   enableTime: true,
   noCalendar: true,
   dateFormat: "H:i",
-  time_24hr: ture
+  time_24hr: true,
+  minTime: "03:00",
+  maxTime: "23:00",
 }
+
 flatpickr("#start_time", setting);
-flatpickr("#end_time", setting); 
+flatpickr("#end_time", setting);
